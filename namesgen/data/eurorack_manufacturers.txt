@@ -1,0 +1,440 @@
+1010 Music
+2hp
+4ms
+7 Dials Devices
+Abstract Data
+Acid Rain Technology
+Acidlab
+Audiophile Circuits League
+ACXSynth
+ADDAC System
+Adventure Audio
+Aemit
+AI Synthesis
+Aion Modular
+AJH Synth
+ALM Busy Circuits
+Alright Devices
+Alyseum
+AMSynths
+Analog Ordnance
+Analogue Solutions
+Analogue Systems
+Animal Factory Amplification
+AniModule
+Antimatter Audio
+Antumbra
+AQA ElektriX
+ARC
+Arcus Audio
+ARREL Audio
+Art For The Ears
+Artifact Electronics
+Arturia
+Analog Sound Devices
+Atomosynth
+Audio Damage
+Audiospektri
+Audiothingies
+AvonSynth
+Bananalogue
+BARD
+Barton Musical Circuits
+Bastl
+Beast-Tek
+BEB
+Befaco
+Befaker
+Behringer
+birdkids
+Bizmuth Modular
+Black Cat Pedals
+Black Market Modular
+Blind Monk Modular
+Blue Lantern Modules
+Broken Silicon
+brownshoesonly
+Bubblesound Instruments
+Buck Modular
+Buranelectrix
+Cat Full of Ghosts
+Catalyst Audio
+Cavisynth
+CESYG
+CFM
+CG Products
+Cat Girl Synth
+ChartreArts
+CHD Elektroservis
+Circle Fade
+Circuit Abbey
+Circuit Slices
+Circuitbenders
+CMS
+Discrete Synthesizers
+Codex Modulex
+Conjured Circuits
+Copper Traces
+Corsynth
+Critter and Guitari
+Cwejman
+Cylonix
+Cynthia
+d-Machinery
+Darkplace
+Dave Jones Design
+Dave Smith Instruments
+Delptronics
+Delta Sound Labs
+Detroit Underground
+Dewanatron
+Dijkstar Music
+Din Sync
+Division 6
+DivKid
+Doboz
+Doepfer
+dogFace Audio
+dotRed Audio Designs
+Dove Audio
+Dovemans
+DPW Design
+Dreadbox
+DSP Synthesizers
+DTronics
+Dwarfcraft Devices
+EAS
+Elby Designs
+Electric Tone
+Electro-Acoustic Research
+Electro-Faustus
+ElectroLobotomy
+Electronic Mood
+Electrosmith
+Elektrofon
+Elta Music
+Empirical Circuits
+Electronic Music Works
+Encore Electronics
+End Times Modular
+Endangered Audio Research
+Endorphin.es
+Ensure Sound
+Entrospec
+Eowave
+Epoch Modular
+Erica Synths
+Erogenous Tones
+Error Instruments
+Erthenvar
+Evaton Technologies
+Eventide
+Expert Sleepers
+Falafular
+Fancyyyyy Synthesis
+Feedback Modules
+Five12
+Flame
+Flight of Harmony
+Folktek
+Fonitronik
+Found Sound
+Foxfield Instruments
+Frap Tools
+Frequency Central
+Funkstill
+Future Retro
+Future Sound Systems
+g200kg
+G-Storm Electro
+gBiz
+Genki Instruments
+Gezeiten
+Gibbon Digital
+Gieskes
+Ginko Synthese
+GMSN
+Gods Box
+GOLT
+Gotharman
+Grayscale
+Grove Audio
+Grp Synthesizer
+Hackerboutique
+HackMe
+Happy Nerding
+The Harvestman
+Industrial Music Electronics
+Hexinverter Electronique
+Hikari Instruments
+Hinton Instruments
+horstronic
+Humble Audio
+Ieaskul F. Mobenthey
+Innerclock Systems
+Instruo
+Intellijel
+Iron Ether
+Itijik
+J3RK
+JoMoX
+Joranalogue
+JPSynth
+Kasleder Effects
+Kenton
+Kilpatrick Audio
+Kitsch Bent
+KlangbauKoln
+Klavis Technologies
+Knob Farm
+Knob Technology
+KOMA Elektronik
+Konstant Lab
+Korb-Modular
+KRM Music Systems
+L-1
+Ladik
+Laurentide Synthworks
+LCF Industries
+Leaf Audio
+L.E.P.
+Lumanoise
+Liivatera OU
+Limaflo
+Livestock Electronics
+Livewire Synthesizers
+Livid Instruments
+Low-Gain Electronics
+LPZW
+Leipzig West
+LZX Industries
+Macbeth Studio Systems
+Macro Machines
+Mad Rooster Lab
+Magnaval B
+Magpie Modular
+Majella Audio
+Make Noise
+Make Synths Not War
+Maker.ie
+Malekko Heavy Industry
+Manhattan Analog
+Manikin Electronic
+Mannequins
+Mantic Effects
+Marion Systems Corporation
+M.A.S.F.
+Medic Modules
+Medigrade Modular
+Melu Instruments
+MengQiMusic
+Metabolic Devices
+Metalbox
+Metasonix
+Metatronic Mods
+Metro Modular
+Metzger Technologies
+MFB
+MFOS
+Michigan Synth Works
+micro research
+Microbe Modular
+MIDI Hardware
+Million Machine March
+MiniGorille
+Modal Electronics
+Modcan
+Mode Machines
+Modor
+Modular Analog
+Modular Synth Lab
+Moffenzeef Modular
+Media Overkill
+Monde Synthesizer
+Monokom
+Monome
+monoPol Design
+Moog Music Inc
+Mordax
+Moseley Instruments
+Motovilo
+Mungo Enterprises
+Music Thing Modular
+Mutable Instruments
+mxmxmx
+Mystic Circuits
+Nabla Instruments
+NANO Modules
+Neutron Sound
+New England Analog
+Nexus Instruments
+NoBots
+Noise Engineering
+Noise Reap
+Nonlinear Circuits
+North Coast Synthesis
+Nozoid
+Numerical
+nw2s
+O3audio
+Oakley Sound Systems
+Old Crow
+Olegtron
+Olitronik Circuits
+Olympia Modular
+Omiindustriies
+Omsonic
+Open Music Labs
+Orpho
+Orthogonal Devices
+Oscillosaurus
+Pantala Labs
+Paratek
+Patchblocks
+Patching Panda
+Percussa
+ph Neutre
+Pharmasonic
+Pittsburgh Modular
+Plan B
+Plankton Electronics
+Plum Audio
+Pmfoundations
+Polaxis
+Polyend
+Praxis Electronics
+ProModular
+PT Audio
+Pucktronix
+PulpLogic
+Purrtronics
+Qosmo Modular
+Qu-Bit Electronix
+Quicco Sound
+Rabid Elephant
+Radical Frequencies
+Radikal Technologies
+RandomSource
+Rare Waves
+Razmasynth
+Really Nice Audio
+ReBach
+Rebel Technology
+Reckless Experimentation Audio
+Recovery Effects
+Retroakitv
+Retrokits
+Reverse Landfill
+Ritual Electronics
+River Creative Technology
+Retro Mechanical Labs
+Robaux
+Roland
+Rossum Electro-Music
+Roll Your Own
+S3n0R
+San Pedro Labs
+Schenk.work
+Schippmann
+Schlappi Engineering
+SDS Digital
+Sea Moss
+Seismic Industries
+Sequentix
+Serpens Modular
+Shakmat Modular
+Shock Electronix
+Signal Arts
+simpleCircuits
+Sismo
+Slow Nova
+Snazzy FX
+Snyderphonics
+Softwire
+Sognage
+SOMA Laboratory
+Sonic Potions
+Soulsby
+Sound Study
+Soundmachines
+Special Stage Systems
+Sputnik Modular
+Squarp Instruments
+Steady State Fate
+SSSR Labs
+Steffcorp
+Stereoping
+STG Soundlabs
+Strange Science Instruments
+Strymon
+Studio Electronics
+Subconscious Communications
+Sui Creation
+Sunsine Audio
+Super Synthesis
+Svarog Audio
+Syinsi
+Synamodec
+Synovatron
+synthCube
+Synthesis Technology
+Synthesizer Factory
+Synthetic Sound Labs
+Synthrotek
+Synthwerks
+System 80
+T-Rex
+TAKAAB
+Siam Modular
+Tall Dog
+Teia Synthesizers
+Tenderfoot Electronics
+Tesseract Modular
+This is not Rocket Science
+Thonk
+Tiptop Audio
+Tokyo Tape Music Center
+Toppobrillo
+TouellSkouarn
+Transient Modules
+Transistor Sounds Labs
+Trogotronic
+Trouby Modular
+Tsyklon Labs
+Tubbutec
+TubeOhm
+Twisted Electrons
+UFO Modular
+U-he
+Uoki-Toki
+UralTone
+Van Daal Electronics
+VBrazil Systems
+VDD
+Verbos Electronics
+Vermona
+Vinicius Electrik
+Vintage Synth Lab
+VoicAs
+Void Modular
+Voice of Saturn
+vpme.de
+Waldorf Music
+Warm Star Electronics
+WaveLicker
+West Oakland Music Systems
+Wiesolator
+Winter Modular
+WMD
+A Wonderful Kind of Impossible
+WORNG
+X1L3
+Xaoc Devices
+X-Fade Modular
+XOR Electronics
+York Modular
+Zerosum Inertia
+Zetaohm
+Zlob Modular
+ZVEX Modular
+>>>

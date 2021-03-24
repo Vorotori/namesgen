@@ -1,12 +1,13 @@
 # ### Dataset and Preprocessing (CLEAN)
 
 import numpy as np
+import requests
 
 def get_names(filename):
     # Reads the file == should be a simple text file with one name per line
     data = open(f'{filename}', 'r').read()
     data = data.lower() # dataset of single lower-case characters
-    names = data.split() # list of parsed names
+    names = data.split('\n') # list of parsed names
     names = [s+' ' for s in names] # all names end with an extra space to signify end of word
     chars = list(set(data)) # list of unique characters (usually results in alphabet + couple of special symbols)
     chars.remove('\n')
@@ -47,13 +48,14 @@ def create_xy(chars,names,max_char,char_to_ix):
 
 # Callback providing useful information every 25 epochs
 
-def make_name(model,max_char,chars,ix_to_char):
+def make_name(model,max_char,chars,ix_to_char,special):
     name = []
     i = 0
     character = ''
     x = np.zeros((1, max_char, len(chars)))
+    special = special
         
-    while (character != ' ') and (i < max_char-1 ):
+    while (character != special) and (i < max_char-1 ):
       probs = list(model.predict(x)[0,i])
       probs = probs / np.sum(probs)
       index = np.random.choice(range(len(chars)), p=probs)
@@ -74,6 +76,24 @@ def is_real(final_name,filename):
     exists = final_name in names
 
     return exists
+
+def search_images(final_name):
+
+    subscription_key = "baf7067e328d40a789e9c3d076f3c898"
+    assert subscription_key
+    search_url = "https://api.bing.microsoft.com/v7.0/images/search"
+    search_term = final_name
+
+    headers = {"Ocp-Apim-Subscription-Key": subscription_key}
+    params = {"q": search_term, "count":3, "mkt":"en-IN"}
+    response = requests.get(search_url, headers=headers, params=params)
+    response.raise_for_status()
+    search_results = response.json()
+    thumbnail_urls = [img["thumbnailUrl"] for img in search_results["value"][:16]]
+    
+    return thumbnail_urls
+
+
      
 
 

@@ -8,11 +8,17 @@
 from namesgen.utils import get_names, create_indexes, get_minmax, create_xy, make_name
 from namesgen.namesgen_model import compile_lstm_gru
 from tensorflow import keras
+import streamlit as st
 
-filename = 'uanames.txt' #'indian_gods.txt'
+# Load model and store it in streamlit cache
+# @st.cache == do not know how to pass hash_funcs
+def load_that_model(filename):
+    model = keras.models.load_model(f'namesgen/models/{filename[:-4]}')
+
+    return model
 
 # 1. Standard text preprocessing steps
-def predict_name(filename):
+def predict_name(model, filename, special,max_length):
     chars, names = get_names(f'namesgen/data/{filename}')
     char_to_ix, ix_to_char = create_indexes(chars)
     max_char, min_char = get_minmax(names)
@@ -21,7 +27,6 @@ def predict_name(filename):
     X, Y = create_xy(chars,names,max_char,char_to_ix)
 
     # Load trained model
-    model = keras.models.load_model(f'namesgen/models/{filename[:-4]}')
-    generated_name = make_name(model,max_char,chars,ix_to_char)
+    generated_name = make_name(model,max_length,chars,ix_to_char,special)
     
     return generated_name
