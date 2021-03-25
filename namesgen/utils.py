@@ -2,7 +2,7 @@
 
 import numpy as np
 import requests
-import namesgen.config as cfg
+import namesgen.confs as cfg
 
 def get_names(filename):
     # Reads the file == should be a simple text file with one name per line

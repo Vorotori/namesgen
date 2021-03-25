@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from PIL import Image
-from namesgen import generator, utils, ua_name_converter, indian, eurorack, config
+from namesgen import generator, utils, ua_name_converter, indian, eurorack, confs
 
 stop_chars = ['-', ' ', 'ь', '`']
 
