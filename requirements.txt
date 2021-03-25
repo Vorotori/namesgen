@@ -7,6 +7,14 @@ wheel>=0.29
 # data science
 numpy
 tensorflow
+PIL
+numpy
+pandas
+requests
+streamlit
+
+# app specific
+indic_transliteration
 
 
 
