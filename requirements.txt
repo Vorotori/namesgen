@@ -5,10 +5,9 @@ twine
 wheel>=0.35
 
 # data science
-numpy
 tensorflow-cpu==2.4.1
 Pillow
-numpy~=1.19.2
+numpy==1.19.2
 pandas
 requests
 streamlit
