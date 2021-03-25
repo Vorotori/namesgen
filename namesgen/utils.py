@@ -2,6 +2,7 @@
 
 import numpy as np
 import requests
+import namesgen.config as cfg
 
 def get_names(filename):
     # Reads the file == should be a simple text file with one name per line
@@ -79,7 +80,7 @@ def is_real(final_name,filename):
 
 def search_images(final_name):
 
-    subscription_key = "baf7067e328d40a789e9c3d076f3c898"
+    subscription_key = cfg.secrets['bing_subscription_key']
     assert subscription_key
     search_url = "https://api.bing.microsoft.com/v7.0/images/search"
     search_term = final_name
