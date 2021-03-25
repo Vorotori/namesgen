@@ -107,14 +107,9 @@ if st.sidebar.button('Generate'):
         final_name = generated_name + ending        
         col1.subheader(f'{final_name.title()}')
 
-        st.markdown("""
-            <style>
-            .random-font {
-                font-size:50px !important;
-                font-family:Verdana;
-            }
-            </style>
-            """, unsafe_allow_html=True)
+        
+        style = eurorack.random_style()
+        st.markdown(style, unsafe_allow_html=True)
         col2.markdown(f'<p class="random-font">{final_name.title()}</p>', unsafe_allow_html=True)
                        
         
@@ -164,9 +159,15 @@ To accompany the model the following features were added:\n
 -	Transliteration of the Latin version into several Indian scripts according to ITRANS rules. The languages are Devanagari, Telugu, Tamil, Gujarati, Bengali, Kannada, Malayalam, and Oriya. Transliteration are done with the help of indic_transliteration module for Python.
 -	Automatic image search using Bing Image Search API that returns 3 first images found with the generated word as a query. This allows to check what the word could possibly mean in the real world.
 ### 3. EURORACK MANUFACTURERS
-This model was trained on a small set ...
+This model was trained on a small set of 439 names of Eurorack manufacturers listed on modulargrid.net. Output is randomized but takes into account probabilities assigned by the model to each character. Resulting predictions sometimes coincide with real names, and in rare cases fail to resemble real-like names. The user interface provides an option to hide real-world examples, bad results are filtered out.
 #### EURORACK MANUFACTURERS SPECIFIC FEATURES
 To accompany the model the following features were added:\n
+-	Real-world name extensions. Eurorack manufacturers often pair up their brand names with words like “Electronics”, “Modular”, “Music” etc. The list of most frequent extensions was created to be randomly added to a generated word making the names sound more realistc.
+-	Logo-like text display. The algorithm randomizes a set of basic font types and sizes to display generated names in more appealing way.
+\n\n
+This project on GitHub: https://github.com/Vorotori/namesgen
+\n\n
+2021 ©
 """)
 
 st.sidebar.write('Click for detailed description of the project')
