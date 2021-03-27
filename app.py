@@ -52,7 +52,8 @@ if st.sidebar.button('Generate'):
     while regenerate:
         model = generator.load_that_model(filename)
         max_length = model.output_shape[1]
-        generated_name = generator.predict_name(model, filename, special, max_length)
+        chars, names, char_to_ix, ix_to_char, max_char, min_char = generator.parse_text(filename)
+        generated_name = generator.predict_name(model, filename, special, max_length, chars, names, char_to_ix, ix_to_char, max_char, min_char)
         
         real = utils.is_real(generated_name,filename)
         

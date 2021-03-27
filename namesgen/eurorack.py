@@ -20,7 +20,6 @@ def random_style():
             'Didot','Perpetua','Consolas','Optima','Century Gothic','Andale Mono',
             'Copperplate Gothic','Bodoni','Impact','Lucida Console','Comic Sans MS']
     font = str(np.random.choice(fonts))
-    print(font)
     style = """
             <style>
             .random-font {

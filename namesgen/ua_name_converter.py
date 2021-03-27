@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import streamlit as st
 
 def convert_to_latin(name):
 
@@ -45,10 +46,16 @@ def check_gender(final_name):
 
     return gender
 
-def match_first_name(gender):
-    # Select an appropriate first name based on the sex and with real-life probabilities
+@st.cache
+def read_first_names():
     males = pd.read_csv("namesgen/data/ua_male_first_names.csv",header=None)
     females = pd.read_csv("namesgen/data/ua_female_first_names.csv",header=None)
+
+    return males, females
+
+def match_first_name(gender):
+    # Select an appropriate first name based on the sex and with real-life probabilities
+    males, females = read_first_names()
 
     if gender == 'N':
         sex = np.random.choice(['M', 'F'])

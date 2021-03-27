@@ -32,23 +32,6 @@ def get_minmax(names):
 
     return max_char, min_char
 
-def create_xy(chars,names,max_char,char_to_ix):
-    # Returns X and Y 3D arrays
-
-    X = np.zeros((len(names), max_char, len(chars)))
-    Y = np.zeros((len(names), max_char, len(chars)))
-
-    for i in range(len(names)):
-        name = list(names[i])
-        for j in range(len(name)):
-            X[i, j, char_to_ix[name[j]]] = 1
-            if j < len(name)-1:
-                Y[i, j, char_to_ix[name[j+1]]] = 1
-    
-    return X,Y
-
-# Callback providing useful information every 25 epochs
-
 def make_name(model,max_char,chars,ix_to_char,special):
     name = []
     i = 0
