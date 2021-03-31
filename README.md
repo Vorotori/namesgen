@@ -1,74 +1,17 @@
-# Data analysis
-- Document here the project: namesgen
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+# Name Generator
+- Generating real sounding names with the help of deep learning models
+- This project explores the possibilities of Deep Learning approach in generating similar-sounding but not necessarily existing names based on a given set of real names. The solution in this particular case is a character-based sequential prediction algorithm. The prediction model is a recurrent neural network that uses LSTM and GRU layers with various hyperparameters.
 
-Please document the project the better you can.
+For the moment generator works with:
+- Ukrainian identities
+- Indian deities
+- Eurorack manufacturers
 
-# Startup the project
+# Check the project
 
-The initial setup.
+The project is available here:
+https://namesgen-tori.herokuapp.com/
 
-Create virtualenv and install the project:
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
-    pip install pip -U; pip install -r requirements.txt
-```
+You will find the extended project description at the link above.
 
-Unittest test:
-```bash
-make clean install test
-```
 
-Check for namesgen in gitlab.com/{group}.
-If your project is not set please add it:
-
-- Create a new project on `gitlab.com/{group}/namesgen`
-- Then populate it:
-
-```bash
-##   e.g. if group is "{group}" and project_name is "namesgen"
-git remote add origin git@github.com:{group}/namesgen.git
-git push -u origin master
-git push -u origin --tags
-```
-
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-namesgen-run
-```
-
-# Install
-
-Go to `https://github.com/{group}/namesgen` to see the project, manage issues,
-setup you ssh public key, ...
-
-Create a python3 virtualenv and activate it:
-
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
-
-Clone the project and install it:
-
-```bash
-git clone git@github.com:{group}/namesgen.git
-cd namesgen
-pip install -r requirements.txt
-make clean install test                # install and test
-```
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-namesgen-run
-```
