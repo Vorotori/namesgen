@@ -10,14 +10,14 @@ from tensorflow import keras
 import streamlit as st
 
 # Load model and store it in streamlit cache
-@st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True, show_spinner=False)
 def load_that_model(filename):
     model = keras.models.load_model(f'namesgen/models/{filename[:-4]}')
 
     return model
 
 # 1. Standard text preprocessing steps
-@st.cache
+@st.cache(show_spinner=False)
 def parse_text(filename):
     chars, names = get_names(f'namesgen/data/{filename}')
     char_to_ix, ix_to_char = create_indexes(chars)

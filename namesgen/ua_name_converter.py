@@ -46,7 +46,7 @@ def check_gender(final_name):
 
     return gender
 
-@st.cache
+@st.cache(show_spinner=False)
 def read_first_names():
     males = pd.read_csv("namesgen/data/ua_male_first_names.csv",header=None)
     females = pd.read_csv("namesgen/data/ua_female_first_names.csv",header=None)

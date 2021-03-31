@@ -163,7 +163,7 @@ To accompany the model the following features were added:\n
 This model was trained on a small set of 439 names of Eurorack manufacturers listed on modulargrid.net. Output is randomized but takes into account probabilities assigned by the model to each character. Resulting predictions sometimes coincide with real names, and in rare cases fail to resemble real-like names. The user interface provides an option to hide real-world examples, bad results are filtered out.
 #### EURORACK MANUFACTURERS SPECIFIC FEATURES
 To accompany the model the following features were added:\n
--	Real-world name extensions. Eurorack manufacturers often pair up their brand names with words like “Electronics”, “Modular”, “Music” etc. The list of most frequent extensions was created to be randomly added to a generated word making the names sound more realistc.
+-	Real-world name extensions. Eurorack manufacturers often pair up their brand names with words like “Electronics”, “Modular”, “Music” etc. The list of most frequent extensions was created to be randomly added to a generated word making the names sound more realistic.
 -	Logo-like text display. The algorithm randomizes a set of basic font types and sizes to display generated names in more appealing way.
 \n\n
 This project on GitHub: https://github.com/Vorotori/namesgen
